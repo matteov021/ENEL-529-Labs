@@ -69,6 +69,6 @@ for j = 1:length(var_list)
     
     % Step 9 
     BER = num_bit_errors / 1000;   % Bit Error Rate
-    fprintf('BER: [%.2f%%] For Rayleigh Variance: [%.2f]\n', BER*100, agwn_var)
+    fprintf('BER: [%.2f%%] For Rayleigh With AWGN Variance: [%.2f]\n', BER*100, agwn_var)
 
 end
